@@ -25,7 +25,7 @@ class Playlist:
       else:
         index += 1
         current_song = current_song.get_next_song()
-      return index -1
+    return index -1
 
 
   # TODO: Create a method called remove_song that removes a song from the playlist. This method takes one parameter, title, which is the song that should be removed. 
